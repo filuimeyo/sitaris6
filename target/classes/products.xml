@@ -1,0 +1,53 @@
+<?xml version="1.0"  ?>
+<catalog>
+    <product id="1">
+        <name>Гидрофильное масло Abib Pore Cleansing Oil Heartleaf Oil-Wash 210 мл</name>
+        <brand>Abib</brand>
+        <type>Гидрофильное масло</type>
+        <price>68.0</price>
+
+    </product>
+
+    <product id="2">
+        <name>Лёгкий успокаивающий крем с полынью Round Lab Mugwort Calming Cream 15 мл</name>
+        <brand>Round Lab</brand>
+        <type>Крем для лица</type>
+        <price>20.0</price>
+
+    </product>
+
+
+    <product id="3">
+        <name>
+            Палетка теней Romand Better Than Palette Light and Glitter Garden
+        </name>
+        <brand>Romand</brand>
+        <type>Палетка теней</type>
+        <price>91.50</price>
+
+    </product>
+
+
+    <product id="4">
+        <name>
+            Гидрофильное масло с лактобактериями Medi-Peel Red Lacto Collagen Cleansing Oil 200 мл
+        </name>
+        <brand>Medi-Peel</brand>
+        <type>Гидрофильное масло</type>
+        <price>70.00</price>
+
+    </product>
+
+
+    <product id="5">
+        <name>
+            Увлажняющий крем с витамином С для сияния кожи Needly Vita C glow toning cream 50 мл
+        </name>
+        <brand>Needly</brand>
+        <type>Крем для лица</type>
+        <price>61.00</price>
+
+    </product>
+
+
+</catalog>
