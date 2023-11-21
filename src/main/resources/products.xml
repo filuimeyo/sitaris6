@@ -28,7 +28,7 @@
     </product>
 
 
-    <product id="4">
+   <!-- <product id="4">
         <name>
             Гидрофильное масло с лактобактериями Medi-Peel Red Lacto Collagen Cleansing Oil 200 мл
         </name>
@@ -47,7 +47,7 @@
         <type>Крем для лица</type>
         <price>61.00</price>
 
-    </product>
+    </product>-->
 
 
 </catalog>

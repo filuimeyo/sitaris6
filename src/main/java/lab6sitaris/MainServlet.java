@@ -23,7 +23,7 @@ public class MainServlet  extends HttpServlet {
 
 
 
-        Catalog catalog = Parser.parseCatalog();
+        Catalog catalog = Parser.parseCatalog("D:\\sitaris\\lab6\\src\\main\\resources\\products.xml");
 
 
         req.setAttribute("avg", catalog.average());

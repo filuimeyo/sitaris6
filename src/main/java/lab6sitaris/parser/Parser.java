@@ -9,12 +9,13 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.file.Path;
 
 public class Parser {
 
-    public static Catalog parseCatalog(){
+    public static Catalog parseCatalog(String mypath){
         Catalog catalog = null;
-        String path = new File("D:\\sitaris\\lab6\\src\\main\\resources\\products.xml").getAbsolutePath();
+        String path = new File(mypath).getAbsolutePath();
         try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))){
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser parser = factory.newSAXParser();

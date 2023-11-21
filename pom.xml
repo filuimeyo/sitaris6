@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sitaris6</groupId>
-  <artifactId>lab6</artifactId>
+  <artifactId>sitaris6</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
@@ -85,19 +85,21 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+          <configuration>
+            <includes>
+              <include>TestLab8.java</include>
+            </includes>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
           <version>3.2.2</version>
         </plugin>
-        <plugin>
-          <artifactId>maven-install-plugin</artifactId>
-          <version>2.5.2</version>
-        </plugin>
-        <plugin>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.8.2</version>
-        </plugin>
+
+
+
+
+
       </plugins>
     </pluginManagement>
   </build>

@@ -11,20 +11,11 @@ import java.util.stream.Collectors;
 
 public class Catalog {
 
-    public static void main(String[] args) {
-        Catalog c = new Catalog();
-        c = Parser.parseCatalog();
 
-
-        Map<String, Integer> map = c.getProducts().stream()
-                .collect(Collectors.toMap(Product::getType, value -> 1, Integer::sum));
-
-        System.out.println(map);
-    }
     private ArrayList<Product> products;
 
     public Catalog(){
-        products = new ArrayList<>();
+
     }
 
     public Map<String, Integer> getInfoForChart(){
@@ -55,6 +46,7 @@ public class Catalog {
     }
 
     public  void push(Product p){
+        if(this.products == null) products = new ArrayList<>();
         products.add(p);
     }
 
